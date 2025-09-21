@@ -1,2 +1,1 @@
-# alitaherpoor.github.io
-Software Project (2carsGame)
+# به نام خدا
