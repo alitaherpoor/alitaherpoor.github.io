@@ -1,0 +1,170 @@
+body {
+     background: #25337a;
+     overflow: hidden;
+     clear: both;
+}
+
+.container {
+     display: flex;
+     width: 100%;
+     height: 97vh;
+     padding: 0;
+     margin: 0;
+     overflow: hidden;
+}
+
+
+.red_track{
+     padding: 0;
+     margin: 0;
+     display: block;
+     overflow: hidden;
+     width: 50%;
+     border-right: solid gray 2px;
+     height: 100%;
+
+
+}
+.cyan_track{
+     padding: 0;
+     margin: 0;
+     display: block;
+     overflow: hidden;
+     width: 50%;
+     border-right: solid gray 2px;
+     height: 100%;
+
+
+}
+.track1{
+     padding: 0;
+     margin: 0;
+     display: block;
+     overflow: hidden;
+     width: 50%;
+     border-left: solid gray 2px;
+     border-right: solid gray 2px;
+     height: 100%;
+}
+
+.track2{
+     padding: 0;
+     margin: 0;
+     display: block;
+     overflow: hidden;
+     width: 50%;
+     border-left: solid gray 2px;
+     border-right: solid gray 2px;
+     height: 100%;
+}
+
+
+.car1{
+    z-index: 100; 
+    height: 70px;
+    width: 50px;
+    border-radius: 20%;
+    background-color: cyan;
+    /*border: solid white 4px;*/
+    position :absolute;
+    box-shadow:inset 0px 0px 0px 5px white;
+    left :35%;
+    top :80%;
+
+    transition: 0.5s;
+}
+.car2{
+    z-index: 100;
+    height: 70px;
+    width: 50px;
+    border-radius: 20%;
+    /*border: solid white 4px;*/
+    background-color: red;
+    box-shadow:inset 0px 0px 0px 5px white;
+    position :absolute;
+    left :55%;
+    top :80%;
+    transition: 0.5s;
+
+}
+.food{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+    border: solid cyan 10px;
+    position :absolute;
+    left :35%;
+    top :-10%;
+    /*transition:  0.5s;*/
+    /*animation: 2s linear  movedown;*/
+}
+
+.food1{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+    border: solid red 10px;
+    position :absolute;
+    right :35%;
+    overflow-y: hidden;
+    top :-10%;
+    /*transition:  0.5s;*/
+    /*animation: 2s linear movedown;*/
+}
+
+
+
+.over{
+    font-family: 'Azonix';
+    z-index: 1000000!important;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0%;
+    left: 0%;
+    display: none;
+    color: white;
+    font-size: 2em;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+
+
+
+.stone{
+    height: 30px;
+    width: 30px;
+    border-radius: 10%;
+    background-color: white;
+    border: solid red 10px;
+    position :absolute;
+    right :35%;
+    top :-10%;
+/*    transition: 0.5s;
+    animation: 2s linear movedown;*/
+}.stone1{
+    height: 30px;
+    width: 30px;
+    border-radius: 10%;
+    background-color: white;
+    border: solid cyan 10px;
+    position :absolute;
+    right :35%;
+    top :-10%;
+/*    transition: 0.5s;
+    animation: 2s linear movedown;*/
+}
+
+img{
+    position: absolute;
+    display: none;
+}
